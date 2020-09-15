@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>HACS Server</title>
 <style>
+
+body
+{
+	background-image: url('electronics.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
 body 
 {
   background-color: white;
   text-align: center;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 intput [type=text], inpu [type=password]
@@ -46,24 +56,24 @@ button
 </head>
 <body>
 
-<h1>Home automation control server</h1>
-<p>Copyright © Zaharia Gheorghe Eduard</p>
-<p>Introduce your credentials</p>
+<h1 style="color:blue">Home automation control server</h1>
+<p style="color:blue">Copyright © Zaharia Gheorghe Eduard</p>
+<p style="color:blue">Introduce your credentials</p>
 
   <div class="container">
-    <label for="uname"><b>Username:</b></label>
+    <label for="uname" style="color:blue"><b>Username:</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required text-align="left">
   </div>
  
   <div class="container">
-  <label for="pwd"><b>Password:</b></label>
+  <label for="pwd" style="color:blue"><b>Password:</b></label>
   <input type="password" placeholder="Enter Password" name="uname" required>
 </div>
 	
      <button type="submit" style="background-color:blue">Login </button>
 
-    <div class="container" style="background-color:#f1f1f1" align="right">
+    <div class="container"  align="center">
 	<span class="pwd"> <a href="#">Forgot password?</span>
-
+</div>
 </body>
 </html>
